@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### DevOps Take-Home Assignment: Deploying a Business-Critical Application
 
-## Getting Started
+**Welcome to your assignment,**
 
-First, run the development server:
+You have been provided with a Git repository containing a business-critical Todo application based on Next.js. This application is crucial for day-to-day operations, and your challenge is to ensure its reliability and accessibility via Google Cloud Platform.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Assignment Instructions:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Repository Setup:** - Clone the provided repository from [https://github.com/yaroslav-ishanov/todo-app](https://github.com/yaroslav-ishanov/todo-app) to your own GitHub account. - Implement all changes within your fork and prepare to submit this fork as part of your deliverables.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Docker Deployment:** - Build the Docker image from the provided Dockerfile to ensure the application runs smoothly in a containerized environment.
 
-## Learn More
+3. **Continuous Integration Setup:** - Set up a CI/CD pipeline using GitHub Actions. The pipeline should automate the building of the Docker image upon each commit to your fork.
 
-To learn more about Next.js, take a look at the following resources:
+4. **Infrastructure as Code with Terraform:** - Use Terraform to provision the required resources and accounts necessary for deploying the application on Google Cloud Platform. - The deployment must be completed using Cloud Run v2, and the application must be exposed to the internet.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Google Cloud Environment Setup:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- You will need to set up your own Google Cloud environment for this assignment. This requires an active billing account. If you do not have an existing Google Cloud account with a billing setup, you may sign up with a new email to receive $300 in credits. Alternatively, you can add your own credit card to activate the billing account. - Please be aware that while the required services for this assignment should not incur any charges if implemented correctly, St1 is not responsible for any costs that may be accumulated as a consequence of attempting this challenge.
 
-## Deploy on Vercel
+**Encouragement for Submission:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- It's perfectly fine if you can't complete the entire exercise. Please submit whatever you have managed to accomplish, and we can walk through the exercise together during the review to address any challenges you may have faced.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Deliverables:** - A link to your fork of the GitHub repository containing the GitHub Actions configuration and all other changes. - The Terraform scripts used to set up the necessary resources. - A live URL to the publicly accessible Todo application on Cloud Run v2.
+
+**Support:** For any questions or issues, please contact support through yaroslav.ishanov@st1.com or submit an issue in your project repository.
+
+We look forward to reviewing your innovative solutions.

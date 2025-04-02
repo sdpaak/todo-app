@@ -7,7 +7,7 @@ You have been provided with a Git repository containing a business-critical Todo
 
 **Assignment Instructions:**
 
-1. **Repository Setup:** - Clone the provided repository from [https://github.com/yaroslav-ishanov/todo-app](https://github.com/yaroslav-ishanov/todo-app) to your own GitHub account. - Implement all changes within your fork and prepare to submit this fork as part of your deliverables.
+1. **Repository Setup:** - Clone the provided repository from [https://github.com/yaroslav-lohmus/todo-app](https://github.com/yaroslav-lohmus/todo-app) to your own GitHub account. - Implement all changes within your fork and prepare to submit this fork as part of your deliverables.
 
 2. **Docker Deployment:** - Build the Docker image from the provided Dockerfile to ensure the application runs smoothly in a containerized environment.
 
